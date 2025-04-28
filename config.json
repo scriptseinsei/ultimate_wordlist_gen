@@ -1,0 +1,32 @@
+{
+    "default_settings": {
+      "max_combinations": 1000000,
+      "min_length": 1,
+      "max_length": 3,
+      "separator": "",
+      "case_variants": true,
+      "min_char_length": 6
+    },
+    "special_chars": {
+      "default": "!@#$%^&*()_+-=[]{}|;:,.<>?",
+      "common": "!@#$%123"
+    },
+    "years": {
+      "start_year": 1990,
+      "end_year": 2025
+    },
+    "common_words": [
+      "admin",
+      "password",
+      "123456",
+      "qwerty",
+      "welcome",
+      "secret",
+      "letmein"
+    ],
+    "output_formats": {
+      "plain": true,
+      "hashcat": false,
+      "john": false
+    }
+  }
